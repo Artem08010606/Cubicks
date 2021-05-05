@@ -68,14 +68,25 @@ a{
     color: #4985FF;
 }
 
-button{
+button a{
     padding: 20px 36px;
     background-color: #4985FF;
     border: none;
     color: white;
     border-radius: 100px;
     outline: none;
+    text-decoration: none;
 } 
+
+#about-button {
+    padding: 20px 36px;
+    background-color: #4985FF;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    outline: none;
+    text-decoration: none;
+}
 
 .button1{
     padding: 20px 36px;
@@ -84,6 +95,7 @@ button{
     color: white;
     border-radius: 100px;
     outline: none;
+    text-decoration: none;
 } 
 
 .about-inner{
@@ -330,7 +342,7 @@ hr{
 
 .sub-input input{
     width: 60%;
-    padding: 12px 36px;
+    padding: 12px 20px;
     outline: none;
     font-size: 18px;
     border: none;
